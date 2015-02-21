@@ -1,0 +1,38 @@
+maxpass 10
+
+output test.out
+
+vertex 0 0 0
+vertex 0 0 7
+vertex 0 7 7 
+vertex 0 7 0
+vertex 7 0 7
+vertex 7 7 7 
+vertex 7 0 0 
+vertex 7 7 0
+
+vertex 2 4 7
+vertex 2 2 7
+vertex 4 2 7
+vertex 4 4 7
+
+emission 0 0 0
+reflectance 1 0 0
+
+quad 2 3 0 1
+
+emission 0 0 0
+reflectance 1 1 1
+
+quad 0 3 7 6
+quad 1 0 6 4
+
+emission 0 0 0 
+reflectance 1 1 1
+
+quad 4 6 7 5
+
+emission 1 1 1 
+reflectance 1 1 1
+
+quad 8 9 10 11
